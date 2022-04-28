@@ -1,4 +1,6 @@
-package Classes;
+package Pruebas;
+
+import Classes.Paciente;
 
 public final class PruebaRapida implements PruebaCovid19 {
 	

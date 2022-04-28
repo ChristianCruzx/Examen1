@@ -1,4 +1,6 @@
-package Classes;
+package Pruebas;
+
+import Classes.Paciente;
 
 public final class PruebaPCR implements PruebaCovid19{
 	
@@ -18,7 +20,7 @@ public final class PruebaPCR implements PruebaCovid19{
 	@Override
 	public String getNombrePaciente() {
 		
-		return this.getNombrePaciente();
+		return this.paciente.getNombre();
 	}
 
 

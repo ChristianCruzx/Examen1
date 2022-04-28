@@ -1,7 +1,14 @@
-package Classes;
+package Hospital;
+
+
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Classes.Paciente;
+import Pruebas.PruebaCovid19;
+import Pruebas.PruebaPCR;
+import Pruebas.PruebaRapida;
 
 public abstract class OMS {//patron de diseno template
 	private List<Paciente>  listPac;
@@ -28,13 +35,13 @@ public abstract class OMS {//patron de diseno template
 		return resultadoList;
 	}
 	final public String imprimirReporte() {
-		String reporte="-----------------------"+getNombreHospital()+"/n -----------------------";
+		String reporte= "-----------------------"+"\n"+getNombreHospital()+"\n"+  "-----------------------"+"\n";
 		List<PruebaCovid19>  resultadoList =diagnosticar();
 		for(int i=0;i<listPac.size(); i++)
 		{	
 			reporte+="Nombre: "+resultadoList.get(i).getNombrePaciente();
 			reporte+="Resultado: ";
-			reporte+=(resultadoList.get(i).isPositiveCase())?"Positivo Covid19":"Negativo" +"/n -----------------------";
+			reporte+=(resultadoList.get(i).isPositiveCase())?"Positivo Covid19":"Negativo" +"\n"+ "-----------------------"+"\n";
 			
 		}
 		return reporte;

@@ -1,4 +1,4 @@
-package Classes;
+package Hospital;
 public enum Hospital {
     MEXICO("Hospital de Nicoya"), 
     NICOYA("Hospital México");

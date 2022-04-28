@@ -3,6 +3,9 @@ package Classes;
 import java.util.ArrayList;
 import java.util.List;
 
+import Hospital.HospitalMexico;
+import Hospital.HospitalNicoya;
+
 public class Test {
 
 	
@@ -12,7 +15,7 @@ public class Test {
 		Paciente paciente2 = new Paciente("Carlos", 60, 60,true);
 		
 		Paciente paciente3 = new Paciente("Maria", 20, 10,false);
-		Paciente paciente4 = new Paciente("Daniela", 62, 38,true);
+		Paciente paciente4 = new Paciente("Daniela", 62, 39,true);
 
 		
 		List<Paciente> listPaciente= new ArrayList<>();
@@ -24,6 +27,19 @@ public class Test {
 		               listPaciente2.add(paciente4);
 		
 		HospitalNicoya HospiNicoya = new HospitalNicoya(listPaciente);
+		
+		HospitalMexico HospiMexico = new HospitalMexico(listPaciente2);
+		
+		System.out.println("Reporte Hospital Nicoya");  //Rapida
+		
+		System.out.println(HospiNicoya.imprimirReporte());  
+		
+        System.out.println("Reporte Hospital Mexico");  
+    	System.out.print(HospiMexico.imprimirReporte());  //PCR
+		
+	
+		
+		
 		
 		
 		

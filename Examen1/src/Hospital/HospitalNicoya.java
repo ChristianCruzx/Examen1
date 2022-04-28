@@ -1,6 +1,8 @@
-package Classes;
+package Hospital;
 
 import java.util.List;
+
+import Classes.Paciente;
 
 public  class HospitalNicoya extends OMS {
 	private List<Paciente> listPacientes;
@@ -12,15 +14,19 @@ public  class HospitalNicoya extends OMS {
 		}
 
 	@Override
-	protected boolean isGamHospital() {
+	protected boolean isGamHospital() { //Sobreescritura de metodos
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	protected Hospital getNombreHospital() {
+	protected Hospital getNombreHospital() { //Sobreescritura de metodos
 		// TODO Auto-generated method stub
 		return Hospital.NICOYA;
 	}
+	
+	
+	
+	
 
 }

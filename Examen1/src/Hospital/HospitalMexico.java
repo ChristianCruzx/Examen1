@@ -1,6 +1,8 @@
-package Classes;
+package Hospital;
 
 import java.util.List;
+
+import Classes.Paciente;
 
 public class HospitalMexico extends OMS {
 	
