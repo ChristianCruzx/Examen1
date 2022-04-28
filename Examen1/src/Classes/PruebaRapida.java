@@ -2,9 +2,9 @@ package Classes;
 
 public final class PruebaRapida implements PruebaCovid19 {
 	
-	private  Paciente paciente;
+	private  Paciente paciente; 
 	
-	PruebaRapida(Paciente paciente){
+	PruebaRapida(Paciente paciente){ //Composicion
 		this.setPaciente(paciente);
 	}
 
