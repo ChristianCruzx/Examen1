@@ -2,10 +2,10 @@ package Paciente;
 
 public class Paciente {
 	
-	private final String nombre; //inmutable
-	private final int edad; //inmutable
-	private final int temperatura; //inmutable
-	private final boolean vomito; //inmutable
+	private final String nombre; //atributos inmutable
+	private final int edad; //atributos inmutable
+	private final int temperatura; // atributos inmutable
+	private final boolean vomito; //atributos inmutable
 	
 	
 	public Paciente (String nom,int edad, int temp, boolean vomito){

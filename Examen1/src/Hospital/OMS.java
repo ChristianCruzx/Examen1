@@ -34,7 +34,7 @@ public abstract class OMS {//patron de diseno template
 		}
 		return resultadoList;
 	}
-	final public String imprimirReporte() {
+	final public String imprimirReporte() { //Metodo inmutable
 		String reporte= "-----------------------"+"\n"+getNombreHospital()+"\n"+  "-----------------------"+"\n";
 		List<PruebaCovid19>  resultadoList =diagnosticar();
 		for(int i=0;i<listPac.size(); i++)

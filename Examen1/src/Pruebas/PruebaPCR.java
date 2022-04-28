@@ -2,12 +2,12 @@ package Pruebas;
 
 import Paciente.Paciente;
 
-public final class PruebaPCR implements PruebaCovid19{
+public final class PruebaPCR implements PruebaCovid19{ //Classe Inmutable(pero no 100% por que sus atributos no lo son)
 	
 	private Paciente paciente;
 
-	public PruebaPCR(Paciente paciente) { //composicion
-		this.setPaciente(paciente);
+	public PruebaPCR(Paciente paciente) {   //Inyeccion de dependencias
+		this.paciente=paciente; //composicion 
 	}
 
 	

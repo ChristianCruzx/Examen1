@@ -9,7 +9,7 @@ public  class HospitalNicoya extends OMS {
 	
 	public HospitalNicoya(List<Paciente> pacientes){
 		     super(pacientes);
-			this.listPacientes=pacientes;
+			this.listPacientes=pacientes; //Inyeccion de dependencias
 			
 		}
 

@@ -2,12 +2,12 @@ package Pruebas;
 
 import Paciente.Paciente;
 
-public final class PruebaRapida implements PruebaCovid19 {
+public final class PruebaRapida implements PruebaCovid19 { //Classe Inmutable(pero no 100% por que sus atributos no lo son)
 	
 	private  Paciente paciente; 
 	
-	public PruebaRapida(Paciente paciente){ //Composicion
-		this.setPaciente(paciente);
+	public PruebaRapida(Paciente paciente){  //Inyeccion de dependencias
+		this.paciente=paciente;//Composicion 
 	}
 
 	public Paciente getPaciente() {
@@ -18,7 +18,7 @@ public final class PruebaRapida implements PruebaCovid19 {
 		this.paciente = paciente;
 	}
 	
-	public boolean isPositiveCase() {
+	public boolean isPositiveCase() { 
 		if(this.paciente.getTemperatura()>=37 && this.paciente.getEdad()>=60 ) {
            return  true;
 		} else return false;
