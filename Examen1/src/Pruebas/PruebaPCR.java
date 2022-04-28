@@ -6,7 +6,7 @@ public final class PruebaPCR implements PruebaCovid19{
 	
 	private Paciente paciente;
 
-	PruebaPCR(Paciente paciente) { //composicion
+	public PruebaPCR(Paciente paciente) { //composicion
 		this.setPaciente(paciente);
 	}
 

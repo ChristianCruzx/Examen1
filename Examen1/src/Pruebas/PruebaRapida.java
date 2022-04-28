@@ -6,7 +6,7 @@ public final class PruebaRapida implements PruebaCovid19 {
 	
 	private  Paciente paciente; 
 	
-	PruebaRapida(Paciente paciente){ //Composicion
+	public PruebaRapida(Paciente paciente){ //Composicion
 		this.setPaciente(paciente);
 	}
 
