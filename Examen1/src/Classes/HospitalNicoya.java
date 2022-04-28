@@ -20,7 +20,7 @@ public  class HospitalNicoya extends OMS {
 	@Override
 	protected Hospital getNombreHospital() {
 		// TODO Auto-generated method stub
-		return null;
+		return Hospital.NICOYA;
 	}
 
 }
