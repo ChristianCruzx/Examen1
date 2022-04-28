@@ -1,10 +1,12 @@
-package Classes;
+package Test;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 import Hospital.HospitalMexico;
 import Hospital.HospitalNicoya;
+import Paciente.Paciente;
 
 public class Test {
 

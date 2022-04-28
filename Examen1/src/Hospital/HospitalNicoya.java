@@ -2,12 +2,12 @@ package Hospital;
 
 import java.util.List;
 
-import Classes.Paciente;
+import Paciente.Paciente;
 
 public  class HospitalNicoya extends OMS {
 	private List<Paciente> listPacientes;
 	
-	HospitalNicoya(List<Paciente> pacientes){
+	public HospitalNicoya(List<Paciente> pacientes){
 		     super(pacientes);
 			this.listPacientes=pacientes;
 			

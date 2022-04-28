@@ -5,7 +5,7 @@ package Hospital;
 import java.util.ArrayList;
 import java.util.List;
 
-import Classes.Paciente;
+import Paciente.Paciente;
 import Pruebas.PruebaCovid19;
 import Pruebas.PruebaPCR;
 import Pruebas.PruebaRapida;

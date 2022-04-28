@@ -2,13 +2,13 @@ package Hospital;
 
 import java.util.List;
 
-import Classes.Paciente;
+import Paciente.Paciente;
 
 public class HospitalMexico extends OMS {
 	
 	private List<Paciente> listPacientes;
 	
-	HospitalMexico(List<Paciente> pacientes){
+	public HospitalMexico(List<Paciente> pacientes){
 		super(pacientes);
 		this.listPacientes=pacientes;
 	}

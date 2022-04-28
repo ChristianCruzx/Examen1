@@ -1,4 +1,4 @@
-package Classes;
+package Paciente;
 
 public class Paciente {
 	
@@ -8,7 +8,7 @@ public class Paciente {
 	private final boolean vomito; //inmutable
 	
 	
-	Paciente (String nom,int edad, int temp, boolean vomito){
+	public Paciente (String nom,int edad, int temp, boolean vomito){
 		this.nombre=nom;
 		this.edad=edad;
 		this.temperatura= temp;

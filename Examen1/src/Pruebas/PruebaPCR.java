@@ -1,6 +1,6 @@
 package Pruebas;
 
-import Classes.Paciente;
+import Paciente.Paciente;
 
 public final class PruebaPCR implements PruebaCovid19{
 	
