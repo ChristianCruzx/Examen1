@@ -1,4 +1,4 @@
-package Pacientes;
+package Classes;
 
 public interface PruebaCovid19 {	
 	
