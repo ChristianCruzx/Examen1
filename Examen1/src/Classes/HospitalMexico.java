@@ -12,13 +12,13 @@ public class HospitalMexico extends OMS {
 	}
 
 	@Override
-	protected boolean isGamHospital() {
+	protected boolean isGamHospital() {  //Sobreescritura de metodos
 		// TODO Auto-generated method stub
 		return true;
 	}
 
 	@Override
-	protected Hospital getNombreHospital() {
+	protected Hospital getNombreHospital() { //Sobreescritura de metodos
 		// TODO Auto-generated method stub
 		return Hospital.MEXICO;
 	}
