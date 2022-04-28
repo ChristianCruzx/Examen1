@@ -9,7 +9,6 @@ public enum Hospital {
         this.nombreHospital = nombreHospital;
     }
 
-   
     public String getNombreHospital() {
         return this.nombreHospital;
     }
